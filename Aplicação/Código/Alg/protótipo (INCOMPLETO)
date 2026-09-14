@@ -1,0 +1,24 @@
+import json
+import colorise
+from random import randint
+
+
+print(f'\n{'='*20} \n GAME KEY GENERATOR \n{'='*20}')
+print(f'[1] ENTAR COMO ADMINISTRADOR \n[2] CADASTRAR USUÁRIO \n[3] ENTRAR COMO USUÁRIO \n[4] SAIR')
+
+opcao = int(input('Digite o número Relativo à sua escolha: '))
+
+match opcao:
+    case 1:
+        usuario = input('Digite o nome de usuário: ')
+        senha = input('Digite a Senha relativa ao usuário: ')
+        if (usuario == 'LuIS') and (senha == '1910'):
+            colorise.cprint('ENTRANDO COMO ADMINISTRADOR...', fg = 'green')
+        else:
+            colorise.cprint('LOGIN NEGADO (USUÁRIO OU SENHA INVÁLIDOS)', fg = 'red')
+    case 2:
+        colorise.cprint('AVISO: ESTE PROGRAMA NÃO POSSUI AUTENTICAÇÃO OU RECUPERAÇÃO DE SENHA, SE ESQUECER VOCÊ PERDE ' \
+        'PERMANENTEMENTE', fg = 'red')
+        usuario = input('Crie seu nome de usuário: ')
+        senha = input('Crie sua senha: ')
+        with open
