@@ -1,1 +1,91 @@
+## Primeira entrega do crud, sem usar nenhuma função mais diferenciada ou listas, dicionários, tuplas, sem usar bibliotecas também.
+## Usa apenas loops, condicionais, variáveis e funções básicas de entrada e saída de dados.
+## Aluno: Luis Felipe Everton Pinheiro Lopes, do 2º Período de engenharia de software.
 
+nome, email, numero, endereco = '', '', '', ''
+
+while True:
+    print(f'{'='*30}\n   GERENCIADOR DE CONTATO\n{'='*30}\nO que deseja fazer?: ')
+    print('[1] VER CONTATO\n[2] ADICIONAR CONTATO\n[3] REMOVER CONTATO\n[4] SUBSTITUIR DADO DE UM CONTATO\n[5] SAIR')
+    opcao = input('Digite o número relativo a sua escolha: ')
+    if opcao != '1' and opcao != '2' and opcao != '3' and opcao != '4' and opcao != '5':
+        print('Opção inválida, Digite o número relativo a uma das opções acima sem espaços.')
+    else:
+        match opcao:
+            case '1':
+                if nome == '':
+                    print('Não Há Contatos no momento.')
+                elif email != '':
+                    print(f'Nome: {nome} | Email: {email}')
+                elif numero != '':
+                    print(f'Nome: {nome} | Número: {numero}')
+                elif endereco != '':
+                    print(f'Nome: {nome} | Endereço: {endereco}')
+            case '2':
+                if nome != '':
+                    escolha = input('O contato novo irá substituir o contato antigo, prosseguir? [S/N]: ')
+                    if escolha == 'S' or escolha == 's':
+                        novo_nome = input('Digite o nome do novo contato: ')
+                        print('O que quer adicionar?\n[1] EMAIL\n[2] NÚMERO\n[3] ENDEREÇO')
+                        escolha_tipo_informacao = input('--> ')
+                        if escolha_tipo_informacao != '1' and escolha_tipo_informacao != '2' and escolha_tipo_informacao != '3':
+                            print('Opção inválida, Digite o número relativo a uma das opções acima sem espaços.')
+                        else:
+                            email, numero, endereco = '', '', ''
+                            match escolha_tipo_informacao:
+                                case '1':
+                                    email = input('Digite o Email: ')
+                                    nome = novo_nome
+                                    print('Contato Adicionado!')
+                                case '2':
+                                    numero = input('Digite o Número: ')
+                                    nome = novo_nome
+                                    print('Contato Adicionado!')
+                                case '3':
+                                    endereco = input('Digite o endereço: ')
+                                    nome = novo_nome
+                                    print('Contato Adicionado!')
+                else:
+                    nome = input('Digite o nome do novo contato: ')
+                    print('O que quer adicionar?\n[1] EMAIL\n[2] NÚMERO\n[3] ENDEREÇO')
+                    escolha_tipo_informacao = input('--> ')
+                    if escolha_tipo_informacao != '1' and escolha_tipo_informacao != '2' and escolha_tipo_informacao != '3':
+                        nome = ''
+                        print('Opção inválida, Digite o número relativo a uma das opções acima sem espaços.')
+                    else:
+                        match escolha_tipo_informacao:
+                            case '1':
+                                email = input('Digite o Email: ')
+                            case '2':
+                                numero = input('Digite o Número: ')
+                            case '3':
+                                endereco = input('Digite o endereço: ')  
+            case '3':
+                if nome != '':
+                    nome, email, numero, endereco = '', '', '', ''
+                    print('Contato Removido!')     
+                else:
+                    print('Sem contatos, não há nada para ser removido.')
+            case '4':
+                if nome != '':
+                    print('Pelo que quer substituir a informação atual?\n[1] EMAIL\n[2] NÚMERO\n[3] ENDEREÇO')
+                    escolha_tipo_substituicao = input('--> ')
+                    if escolha_tipo_substituicao != '1' and escolha_tipo_substituicao != '2' and escolha_tipo_substituicao != '3':
+                        print('Opção inválida, Digite sem espaços.')
+                    else:
+                        email, numero, endereco = '', '', ''
+                        match escolha_tipo_substituicao:
+                            case '1':
+                                email = input('Digite o Email: ')
+                                print('Informação Atualizada!')
+                            case '2':
+                                numero = input('Digite o Número: ')
+                                print('Informação Atualizada!')
+                            case '3':
+                                endereco = input('Digite o endereço: ')  
+                                print('Informação Atualizada!')
+                else:
+                    print('Não Há contatos no momento, nada para substituir.')
+            case '5':
+                print('Saindo...')
+                break
