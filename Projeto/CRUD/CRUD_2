@@ -1,0 +1,91 @@
+//## Segunda entrega do crud, usando listas, dicionário e funções dessas estruturas de dados, sem refatoração.
+## Aluno: Luis Felipe Everton Pinheiro Lopes, do 2º Período de engenharia de software.
+
+
+contacts = {
+        "contatos": [
+            
+        ]
+}
+
+while True:
+    print(f'{'='*30}\n  GERENCIADOR DE CONTATOS\n{'='*30}')
+    print("[1] VER CONTATOS\n[2] ADICIONAR CONTATO\n[3] ATUALIZAR OU ADICIONAR INFORMAÇÃO EM CONTATO\n[4] REMOVER CONTATO\n[5] SAIR")
+    escolha = input("Digite o número relativo à sua escolha: ")
+    if (escolha.isdigit() == False) or (int(escolha) < 1 or int(escolha) > 5):
+        print("Opção Inválida!")
+    else:
+        match int(escolha):
+            case 1: 
+                if len(contacts["contatos"]) == 0:
+                    print("Você não tem nenhum contato.")
+                else:
+                    for i in range(len(contacts["contatos"])):
+                        print(f'{"="*20}\nContato {i + 1}')
+                        for k, v in contacts["contatos"][i].items():
+                            print(f'{k}: {v}')
+                        print(f'{"="*20}')
+            case 2:
+                nome = input("Digite o nome do contato que quer adicionar: ")
+                contacts["contatos"].append({})
+                contacts["contatos"][-1]["Nome"] = nome.capitalize()
+                print("[1] EMAIL\n[2] ENDEREÇO\n[3] NÚMERO")
+                opcao = input("Digite o número relativo à sua escolha: ")
+                if (opcao.isdigit() == False) or (int(opcao) < 1 or int(opcao) > 3):
+                    print("Opção Inválida!")
+                elif int(opcao) == 1:
+                    email = input("Digite o email do contato: ")
+                    contacts['contatos'][-1]['Email'] = email
+                    print("Email Adicionado!")
+                elif int(opcao) == 2:
+                    endereco = input("Digite o endereço do contato: ")
+                    contacts['contatos'][-1]['Endereço'] = endereco
+                    print("Endereço Adicionado!")
+                elif int(opcao) == 3:
+                    numero = input("Digite o número do contato: ")
+                    contacts['contatos'][-1]['Número'] = numero
+                    print("Número Adicionado!")
+            case 3:
+                print('SE A INFORMAÇÃO QUE VOCÊ QUER ATUALIZAR NÃO EXISTIR, SERÁ CRIADA AUTOMATICAMENTE.')
+                nome_atualizar = input("Digite o nome do contato que deseja atualizar: ")
+                encontrado = False
+                for j in range(len(contacts['contatos'])):
+                    if contacts['contatos'][j]['Nome'] == nome_atualizar.capitalize():
+                        encontrado = True
+                        print("Deseja atualizar que informação?\n[1] EMAIL\n[2] ENDEREÇO\n[3] NÚMERO")
+                        opcao_alterar = input("Digite o número relativo à sua escolha: ")
+                        if (opcao.isdigit() == False) or (int(opcao) < 1 or int(opcao) > 3):
+                            print("Opção Inválida!")
+                            break
+                        elif int(opcao_alterar) == 1:
+                            email = input("Digite o novo email do contato: ")
+                            contacts['contatos'][j]['Email'] = email
+                            print("Contato Atualizado!")
+                            break
+                        elif int(opcao_alterar) == 2:
+                            endereco = input("Digite o novo endereço do contato: ")
+                            contacts['contatos'][j]['Endereço'] = endereco
+                            print("Contato Atualizado!")
+                            break
+                        elif int(opcao_alterar) == 3:
+                            numero = input("Digite o novo número do contato: ")
+                            contacts['contatos'][j]['Número'] = numero
+                            print("Contato Atualizado!")
+                            break 
+                if encontrado == False:
+                    print("Você não tem um contato com esse nome.")
+                encontrado = False
+            case 4:
+                nome_remover = input('Digite o nome do contato que quer remover(Todos os contatos com esse nome serão removidos): ')
+                encontrado_remover = False
+                for n in range(len(contacts['contatos'])):
+                    if contacts['contatos'][n]['Nome'] == nome_remover.capitalize():
+                        encontrado_remover = True    
+                        del contacts['contatos'][n]
+                        print('Contato removido.')
+                    if encontrado_remover == False:
+                        print("Você não tem um contato com esse nome.")
+                    encontrado_remover = False
+            case 5:
+                print('SAINDO...')
+                break
