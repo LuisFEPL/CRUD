@@ -54,7 +54,7 @@ while True:
                         encontrado = True
                         print("Deseja atualizar que informação?\n[1] EMAIL\n[2] ENDEREÇO\n[3] NÚMERO")
                         opcao_alterar = input("Digite o número relativo à sua escolha: ")
-                        if (opcao.isdigit() == False) or (int(opcao) < 1 or int(opcao) > 3):
+                        if (opcao_alterar.isdigit() == False) or (int(opcao_alterar) < 1 or int(opcao_alterar) > 3):
                             print("Opção Inválida!")
                             break
                         elif int(opcao_alterar) == 1:
