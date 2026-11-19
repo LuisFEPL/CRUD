@@ -23,13 +23,13 @@
 
 | Campo | Preencha |
 |---|---|
-| **Nome do estudante** | Luis Felipe Everton Pinheiro Lopes |
-| **Curso / Módulo** | Engenharia de Software. 2º Período |
+| **Nome do estudante** | _escreva aqui_ |
+| **Curso / Módulo** | _ex.: ADS · 2º período_ |
 | **Unidade curricular** | Algoritmos e Programação — UnDB 2026.2 |
 | **Professor** | Rondineli Seba Salomão |
-| **App-base do meu CRUD** | Agenda de Contatos |
-| **Link do meu repositório** | https://github.com/LuisFEPL/CRUD/ |
-| **Dupla de revisão (Campo 05)** | José Guilherme / José Guilherme |
+| **App-base do meu CRUD** | _ex.: um app de delivery, um app de músicas…_ |
+| **Link do meu repositório** | _https://github.com/…_ |
+| **Dupla de revisão (Campo 05)** | _nome do colega cujo CRUD vou revisar / que revisa o meu_ |
 | **Função neste ciclo** | _Autor do meu CRUD · Revisor do CRUD de um colega_ |
 
 ---
@@ -104,21 +104,21 @@ Os grupos têm **5 dias entre um prazo e outro**. O horário do commit no GitHub
 
 Atualize a cada commit (troque ⬜ por ✅).
 
-| Grupo | Item | Prazo | Preenchido | Commit |
-|:--:|---|---|:--:|:--:|
-| 1 | Identificação | 16/11 | ⬜ | ⬜ |
-| 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ⬜ | ⬜ |
-| 1 | Campo 01 — Instrumento de entrada | 16/11 | ⬜ | ⬜ |
-| 1 | Campo 02 — Aprofundamento | 16/11 | ⬜ | ⬜ |
-| 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ⬜ | ⬜ |
-| 2 | Checkpoint Conceitual | 21/11 | ⬜ | ⬜ |
-| 2 | Campo 03 — Execução e desvios | 21/11 | ⬜ | ⬜ |
-| 2 | Campo 04 — Interação com IA | 21/11 | ⬜ | ⬜ |
-| 3 | Registros dos Ciclos 09, 10, 11 e 12 | 26/11 | ⬜ | ⬜ |
-| 3 | Campo 05 — Revisão por pares nº 1 e nº 2 | 26/11 | ⬜ | ⬜ |
-| 3 | Campo 06 — Próximos passos | 26/11 | ⬜ | ⬜ |
-| 3 | Campo 07 — Evolução conceitual | 26/11 | ⬜ | ⬜ |
-| 🏁 | Defesa Técnica | 18/11 | ⬜ | — |
+| Grupo | Item                                     | Prazo | Preenchido | Commit |
+| :---: | ---------------------------------------- | ----- | :--------: | :----: |
+|   1   | Identificação                            | 16/11 |     ✅      |   ✅    |
+|   1   | Registros dos Ciclos 01, 02, 03 e 04     | 16/11 |     ✅      |   ✅    |
+|   1   | Campo 01 — Instrumento de entrada        | 16/11 |     ✅      |   ✅    |
+|   1   | Campo 02 — Aprofundamento                | 16/11 |     ✅      |   ✅    |
+|   2   | Registros dos Ciclos 05, 06, 07 e 08     | 21/11 |     ⬜      |   ⬜    |
+|   2   | Checkpoint Conceitual                    | 21/11 |     ⬜      |   ⬜    |
+|   2   | Campo 03 — Execução e desvios            | 21/11 |     ⬜      |   ⬜    |
+|   2   | Campo 04 — Interação com IA              | 21/11 |     ⬜      |   ⬜    |
+|   3   | Registros dos Ciclos 09, 10, 11 e 12     | 26/11 |     ⬜      |   ⬜    |
+|   3   | Campo 05 — Revisão por pares nº 1 e nº 2 | 26/11 |     ⬜      |   ⬜    |
+|   3   | Campo 06 — Próximos passos               | 26/11 |     ⬜      |   ⬜    |
+|   3   | Campo 07 — Evolução conceitual           | 26/11 |     ⬜      |   ⬜    |
+|  🏁   | Defesa Técnica                           | 18/11 |     ⬜      |   —    |
 
 ---
 
@@ -163,11 +163,11 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 > **Sugestão de ordem:** (1) Identificação → (2) **Campo 01 primeiro, sem consulta** → (3) Registros dos Ciclos 01 a 04 → (4) Campo 02, com pesquisa.
 
 **Checklist do Grupo 1**
-- [ X ] Identificação preenchida (app-base, link do repositório, dupla de revisão)
-- [ X ] Campo 01: 3 objetos de conhecimento, 3 lacunas, hipótese de até 5 linhas
-- [ X ] Registros dos Ciclos 01, 02, 03 e 04 com os 7 itens
-- [ X ] Campo 02: 2 referências com contribuição, hipótese revisada, 3 recursos
-- [ X ] Commits no GitHub e painel atualizado
+- [x] Identificação preenchida (app-base, link do repositório, dupla de revisão)
+- [x] Campo 01: 3 objetos de conhecimento, 3 lacunas, hipótese de até 5 linhas
+- [x] Registros dos Ciclos 01, 02, 03 e 04 com os 7 itens
+- [x] Campo 02: 2 referências com contribuição, hipótese revisada, 3 recursos
+- [x] Commits no GitHub e painel atualizado
 
 ## 🟢 CICLO 01 — 12/08 — Preparação do laboratório e escolha do projeto
 
@@ -183,18 +183,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 #### Registro do Ciclo 01 — 12/08
 1. **Desafio do ciclo (em 1 frase):** Compreender como Linkar o GitHub ao Vscode para fazer commits mais facilmente
-
-2. **O que implementei (commits / arquivos / links):** Criei um novo repositório no GitHub para armazenar os arquivos e acompanhar o desenvolvimento do meu CRUD, que consiste em um gerenciador de contatos. Link do repositório: https://github.com/LuisFEPL/CRUD/
-
-3. **Objeto(s) de conhecimento mobilizado(s):** Git, Github e Vscode
-
-4. **Desvio ou erro encontrado + causa técnica:** Não encontrei desvios ou erros técnicos relevantes durante a criação do repositório e a configuração do ambiente de desenvolvimento. A integração entre o GitHub e o VS Code ocorreu conforme esperado, sem necessidade de correções.
-
-5. **Decisão de ajuste + fonte:** Como não foram identificados problemas técnicos durante a configuração, não foi necessário realizar ajustes no ambiente.
-
-6. **Feedback recebido e o que mudei:** Não recebi feedback específico do professor ou de colegas durante este ciclo. Portanto, não foram realizadas alterações decorrentes de avaliações externas.
-
+2. **O que implementei (commits / arquivos / links):**  Criei um novo repositório no GitHub para armazenar os arquivos e acompanhar o desenvolvimento do meu CRUD, que consiste em um gerenciador de contatos. Link do repositório: https://github.com/LuisFEPL/CRUD/
+3. **Objeto(s) de conhecimento mobilizado(s):**  Git, GitHub e VsCode
+4. **Desvio ou erro encontrado + causa técnica:** Não encontrei desvios ou erros técnicos relevantes durante a criação do repositório e a configuração do ambiente de desenvolvimento. A integração entre o GitHub e o VS Code ocorreu conforme esperado, sem necessidade de correções
+5. **Decisão de ajuste + fonte:**  Como não foram identificados problemas técnicos durante a configuração, não foi necessário realizar ajustes no ambiente.
+6. **Feedback recebido e o que mudei:**  Não recebi feedback específico do professor ou de colegas durante este ciclo. Portanto, não foram realizadas alterações decorrentes de avaliações externas.
 7. **Próximo passo:** Aprender mais comandos do git, como git clone e a fazer pull requests.
+
 
 ## 🟢 CICLO 02 — 19/08 — Variáveis, tipos de dados e entrada/saída
 
@@ -225,9 +220,9 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 4. Type casting
 
 **1b. Lacunas — o que não sei e preciso descobrir (mínimo 3, com precisão técnica):**
-1. Não encontrei nenhuma lacuna significativa que pudesse reparar.
-2. Não encontrei nenhuma lacuna significativa que pudesse reparar.
-3. Não encontrei nenhuma lacuna significativa que pudesse reparar.
+1.  Não encontrei nenhuma lacuna significativa que pudesse reparar.
+2.  Não encontrei nenhuma lacuna significativa que pudesse reparar.
+3.  Não encontrei nenhuma lacuna significativa que pudesse reparar.
 
 **1c. Hipótese inicial em até 5 linhas — com lógica da área de formação:**
 
@@ -240,8 +235,9 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **2a. Aprofundamento dos objetos de conhecimento (mínimo 2 referências com síntese da contribuição para a solução):**
 
-- **Referência 1:** Documentação oficial do Python  — **Contribuição:** Input and Output.
-- **Referência 2:** Livro Pense Python — **Contribuição:** f string(f'') dentro do print, permitindo fazer operações ainda dentro da string.
+- **Referência 1:** Documentação oficial do Python — **Contribuição:** Input and Output.
+- **Referência 2:** Livro Pense Python — **Contribuição:**  f string(f'') dentro do print, permitindo fazer operações ainda dentro da string.
+
 
 **2b. Hipótese revisada — o que mudou em relação ao Campo 01 e por quê:**
 
@@ -249,21 +245,22 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **2c. Dimensionamento inicial de recursos (recurso, quantidade estimada, justificativa técnica — mínimo 3 itens):**
 
-| RECURSO / MATERIAL / INSUMO | QUANTIDADE ESTIMADA | JUSTIFICATIVA TÉCNICA |
-|---|---|---|
-| Computador com VS Code e Python | 1 unidade | Necessário para desenvolver, executar e depurar a aplicação. |
-| Documentação oficial do Python | 2 Referências | Auxilia na compreensão de entrada/saída, tipos de dados e estruturas utilizadas no CRUD. |
-| Horas de estudo e testes | 4 Horas | Tempo estimado para revisar os conceitos, analisar possíveis falhas e testar as operações da aplicação. |
-| _…_ | _…_ | _…_ |
+| RECURSO / MATERIAL / INSUMO     | QUANTIDADE ESTIMADA | JUSTIFICATIVA TÉCNICA                                                                                   |
+| ------------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------- |
+| Computador com VS Code e Python | 1 unidade           | Necessário para desenvolver, executar e depurar a aplicação.                                            |
+| Documentação oficial do Python  | 2 Referências       | Auxilia na compreensão de entrada/saída, tipos de dados e estruturas utilizadas no CRUD.                |
+| Horas de estudo e testes        | 4 Horas             | Tempo estimado para revisar os conceitos, analisar possíveis falhas e testar as operações da aplicação. |
+|                                 |                     |                                                                                                         |
+|                                 |                     |                                                                                                         |
 
 #### Registro do Ciclo 02 — 19/08
 1. **Desafio do ciclo (em 1 frase):** Compreender como as variáveis e os diferentes tipos de dados são utilizados para armazenar informações e como ocorre a entrada e saída de dados em Python.
 2. **O que implementei (commits / arquivos / links):** Implementei variáveis na primeira etapa do CRUD, que são o coração do código: `https://github.com/LuisFEPL/CRUD/blob/main/Projeto/CRUD/CRUD_1`
 3. **Objeto(s) de conhecimento mobilizado(s):** Variáveis, atribuição de valores, tipos primitivos (int, float, str e bool), conversão de tipos (type casting) e operações de entrada e saída utilizando input() e print().
 4. **Desvio ou erro encontrado + causa técnica:** Tentei realizar operações com um valor tipo str, resultado de input()
-5. **Decisão de ajuste + fonte:** Decidi verificar o tipo de dado gerado por input() com type(), resultado: str, para resolver fiz type casting, como int(), não usei essa conversão na primeira etapa do CRUD, mas foi um aprendizado
-6. **Feedback recebido e o que mudei:** Não houve feedback específico nem alterações decorrentes de avaliação externa.
-7. **Próximo passo:** Aprofundar o conhecimento sobre conversão de tipos e validação de entradas, evitando incompatibilidades entre os dados fornecidos pelo usuário e as operações realizadas pelo programa.
+5. **Decisão de ajuste + fonte:**  Decidi verificar o tipo de dado gerado por input() com type(), resultado: str, para resolver fiz type casting, como int(), não usei essa conversão na primeira etapa do CRUD, mas foi um aprendizado
+6. **Feedback recebido e o que mudei:** Não houve feedback específico nem alterações decorrentes de avaliação externa. 
+7. **Próximo passo:**  Aprofundar o conhecimento sobre conversão de tipos e validação de entradas, evitando incompatibilidades entre os dados fornecidos pelo usuário e as operações realizadas pelo programa.
 
 ## 🟢 CICLO 03 — 26/08 — Operadores, fluxogramas e paradigmas
 
@@ -276,13 +273,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 03 — 26/08
-1. **Desafio do ciclo (em 1 frase): Compreender como os operadores e as representações de algoritmos por meio de fluxogramas auxiliam na construção da lógica de um programa.
-2. **O que implementei (commits / arquivos / links):** Apenas atividades realizadas em aula
-3. **Objeto(s) de conhecimento mobilizado(s):** Operadores aritméticos (+, -, *, /), relacionais (==, !=, >, <, >=, <=) e lógicos (and, or, not). Também foram trabalhadas expressões booleanas, precedência de operadores, algoritmos e representação de fluxos de decisão.
-4. **Desvio ou erro encontrado + causa técnica:** Não tive nenhum erro significativo nesse ciclo
+1. **Desafio do ciclo (em 1 frase):**  Compreender como os operadores e as representações de algoritmos por meio de fluxogramas auxiliam na construção da lógica de um programa.
+2. **O que implementei (commits / arquivos / links):**  Apenas atividades realizadas em aula
+3. **Objeto(s) de conhecimento mobilizado(s):**  Operadores aritméticos (+, -, *, /), relacionais (==, !=, >, <, >=, <=) e lógicos (and, or, not). Também foram trabalhadas expressões booleanas, precedência de operadores, algoritmos e representação de fluxos de decisão.
+4. **Desvio ou erro encontrado + causa técnica:**  Não tive nenhum erro significativo nesse ciclo
 5. **Decisão de ajuste + fonte:** Não tive nenhum erro significativo nesse ciclo, então não precisei ajustar.
-6. **Feedback recebido e o que mudei:** Não recebi feedbacks específicos.
-7. **Próximo passo:** Aplicar operadores relacionais e lógicos na construção de expressões condicionais, entendendo como eles permitem controlar o fluxo de execução de um algoritmo.
+6. **Feedback recebido e o que mudei:** Não recebi feedbacks específicos.  
+7. **Próximo passo:**  Aplicar operadores relacionais e lógicos na construção de expressões condicionais, entendendo como eles permitem controlar o fluxo de execução de um algoritmo.
 
 ## 🟢 CICLO 04 — 02/09 — Estruturas condicionais: `if`, `elif`, `else`
 
@@ -297,12 +294,12 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 04 — 02/09
-1. **Desafio do ciclo (em 1 frase): Entender como utilizar estruturas condicionais para controlar o fluxo de execução de um programa de acordo com determinadas condições.
-2. **O que implementei (commits / arquivos / links): Adicionei mecanismos para verificar se o valor de uma variável é vazia ou se o valor de entrada é um valor específico, link do código: `https://github.com/LuisFEPL/CRUD/blob/main/Projeto/CRUD/CRUD_1`
-3. **Objeto(s) de conhecimento mobilizado(s): Estruturas condicionais (if, elif e else), expressões booleanas, operadores relacionais e lógicos, indentação e controle de fluxo. Esses conceitos permitem estabelecer regras de negócio, como impedir o cadastro de contatos sem nome ou verificar se um contato existe antes de atualizá-lo.
-4. **Desvio ou erro encontrado + causa técnica: "Identation Error", coloquei uma condição if fora do alcance em um lugar do programa, deixando-o desalinhado.
-5. **Decisão de ajuste + fonte:** Usei condições aninhadas e alinhadas, deixando o código mais legível e funcional.
-6. **Feedback recebido e o que mudei:** Não Houve feedbacks recebidos.
+1. **Desafio do ciclo (em 1 frase):**  Entender como utilizar estruturas condicionais para controlar o fluxo de execução de um programa de acordo com determinadas condições.
+2. **O que implementei (commits / arquivos / links):**   Adicionei mecanismos para verificar se o valor de uma variável é vazia ou se o valor de entrada é um valor específico, link do código: `https://github.com/LuisFEPL/CRUD/blob/main/Projeto/CRUD/CRUD_1`
+3. **Objeto(s) de conhecimento mobilizado(s):**  Estruturas condicionais (if, elif e else), expressões booleanas, operadores relacionais e lógicos, indentação e controle de fluxo. Esses conceitos permitem estabelecer regras de negócio, como impedir o cadastro de contatos sem nome ou verificar se um contato existe antes de atualizá-lo.
+4. **Desvio ou erro encontrado + causa técnica:** "Identation Error", coloquei uma condição if fora do alcance em um lugar do programa, deixando-o desalinhado.
+5. **Decisão de ajuste + fonte:**  Usei condições aninhadas e alinhadas, deixando o código mais legível e funcional.
+6. **Feedback recebido e o que mudei:**  Não Houve feedbacks recebidos.
 7. **Próximo passo:** Aprofundar o uso de estruturas condicionais combinadas com operadores lógicos, aplicando validações para garantir que as operações do CRUD sejam executadas somente quando os dados e as condições forem adequados.
 
 ---
