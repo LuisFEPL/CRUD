@@ -182,13 +182,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 01 — 12/08
-1. **Desafio do ciclo (em 1 frase):** Compreender como Linkar o GitHub ao Vscode para fazer commits mais facilmente
-2. **O que implementei (commits / arquivos / links):**  Criei um novo repositório no GitHub para armazenar os arquivos e acompanhar o desenvolvimento do meu CRUD, que consiste em um gerenciador de contatos. Link do repositório: https://github.com/LuisFEPL/CRUD/
-3. **Objeto(s) de conhecimento mobilizado(s):**  Git, GitHub e VsCode
-4. **Desvio ou erro encontrado + causa técnica:** Não encontrei desvios ou erros técnicos relevantes durante a criação do repositório e a configuração do ambiente de desenvolvimento. A integração entre o GitHub e o VS Code ocorreu conforme esperado, sem necessidade de correções
-5. **Decisão de ajuste + fonte:**  Como não foram identificados problemas técnicos durante a configuração, não foi necessário realizar ajustes no ambiente.
-6. **Feedback recebido e o que mudei:**  Não recebi feedback específico do professor ou de colegas durante este ciclo. Portanto, não foram realizadas alterações decorrentes de avaliações externas.
-7. **Próximo passo:** Aprender mais comandos do git, como git clone e a fazer pull requests.
+1. **Desafio do ciclo (em 1 frase):**Compreender como Linkar o GitHub ao Vscode para fazer commits mais facilmente
+2. **O que implementei (commits / arquivos / links):**Criei um novo repositório no GitHub para armazenar os arquivos e acompanhar o desenvolvimento do meu CRUD, que consiste em um gerenciador de contatos. Link do repositório: https://github.com/LuisFEPL/CRUD/
+3. **Objeto(s) de conhecimento mobilizado(s):**Git, GitHub e VsCode
+4. **Desvio ou erro encontrado + causa técnica:**Não encontrei desvios ou erros técnicos relevantes durante a criação do repositório e a configuração do ambiente de desenvolvimento. A integração entre o GitHub e o VS Code ocorreu conforme esperado, sem necessidade de correções
+5. **Decisão de ajuste + fonte:**Como não foram identificados problemas técnicos durante a configuração, não foi necessário realizar ajustes no ambiente.
+6. **Feedback recebido e o que mudei:**Não recebi feedback específico do professor ou de colegas durante este ciclo. Portanto, não foram realizadas alterações decorrentes de avaliações externas.
+7. **Próximo passo:**Aprender mais comandos do git, como git clone e a fazer pull requests.
 
 
 ## 🟢 CICLO 02 — 19/08 — Variáveis, tipos de dados e entrada/saída
