@@ -29,7 +29,7 @@ while True:
                 nome = input("Digite o nome do contato que quer adicionar: ")
                 contacts["contatos"].append({})
                 contacts["contatos"][-1]["Nome"] = nome.capitalize()
-                print("[1] EMAIL\n[2] ENDEREÇO\n[3] NÚMERO")
+                print("Qual tipo de informação deseja adicionar?\n[1] EMAIL\n[2] ENDEREÇO\n[3] NÚMERO")
                 opcao = input("Digite o número relativo à sua escolha: ")
                 if (opcao.isdigit() == False) or (int(opcao) < 1 or int(opcao) > 3):
                     print("Opção Inválida!")
