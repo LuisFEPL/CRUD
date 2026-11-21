@@ -348,33 +348,33 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 |                        |                                    |
 | ---------------------- | ---------------------------------- |
-| **Nome do estudante**  | Luis Felipe Everton Pinheiro Lopes |
-| **Data de realização** | 20/11/2026                         |
-| **Unidade curricular** | Algoritmos e Programação           |
-| **Professor(a)**       | Rondineli Seba Salomão             |
+| **Nome do estudante**  |  Luis Felipe Everton Pinheiro Lopes |
+| **Data de realização** |  20/11/2026                         |
+| **Unidade curricular** |  Algoritmos e Programação           |
+| **Professor(a)**       |  Rondineli Seba Salomão             |
 
 > **INSTRUÇÕES:** Responda individualmente, sem consulta. Você tem 20 minutos. As questões avaliam seu domínio dos objetos de conhecimento do componente — não sua solução para o problema. Respostas genéricas sem ancoragem técnica não são aceitas.
 
 **QUESTÃO 1** — Objeto de conhecimento: _…_
-> Não houve identificação das perguntas
-
-**RESPOSTA:**
-
-> Não houve identificação das perguntas
-
-**QUESTÃO 2** — Objeto de conhecimento: _…_
-> Não houve identificação das perguntas
-
-**RESPOSTA:**
-
-> Não houve identificação das perguntas
-
-**QUESTÃO 3** — Objeto de conhecimento: _…_
 >  Não houve identificação das perguntas
 
 **RESPOSTA:**
 
+>  Não houve identificação das perguntas
+
+**QUESTÃO 2** — Objeto de conhecimento: _…_
+>  Não houve identificação das perguntas
+
+**RESPOSTA:**
+
+>  Não houve identificação das perguntas
+
+**QUESTÃO 3** — Objeto de conhecimento: _…_
 > Não houve identificação das perguntas
+
+**RESPOSTA:**
+
+>  Não houve identificação das perguntas
 
 <details>
 <summary>🔒 Uso do professor — critérios de avaliação do Checkpoint</summary>
@@ -393,17 +393,17 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 *AV Qualis — Grupo 2 | Sábado 21/11, 23h59*
 
 **3a. O que descobri que mudou minha compreensão do problema (mínimo 2 achados, com objeto de conhecimento associado):**
-1. Durante o desenvolvimento, aprendi que as entradas recebidas por input() são armazenadas como strings (str), independentemente do conteúdo digitado. Isso significa que, quando uma operação exige outro tipo de dado, é necessário realizar a conversão adequada e considerar possíveis erros caso a entrada seja incompatível. Esse entendimento ampliou minha percepção sobre a importância da validação de dados na aplicação. — *Objeto de conhecimento:* Tipos de dados, conversão de tipos e validação de entradas.
-2. Entendi que a organização dos dados influencia diretamente a implementação das operações de um CRUD. A utilização de estruturas como listas e dicionários permite armazenar, acessar, modificar e localizar informações de maneira mais organizada, mas exige atenção à forma como os elementos são manipulados, principalmente durante buscas, alterações e remoções. — *Objeto de conhecimento:*  Estruturas de dados, listas, dicionários, indexação e manipulação de informações.
+1.  Durante o desenvolvimento, aprendi que as entradas recebidas por input() são armazenadas como strings (str), independentemente do conteúdo digitado. Isso significa que, quando uma operação exige outro tipo de dado, é necessário realizar a conversão adequada e considerar possíveis erros caso a entrada seja incompatível. Esse entendimento ampliou minha percepção sobre a importância da validação de dados na aplicação. — *Objeto de conhecimento:* Tipos de dados, conversão de tipos e validação de entradas.
+2.  Entendi que a organização dos dados influencia diretamente a implementação das operações de um CRUD. A utilização de estruturas como listas e dicionários permite armazenar, acessar, modificar e localizar informações de maneira mais organizada, mas exige atenção à forma como os elementos são manipulados, principalmente durante buscas, alterações e remoções. — *Objeto de conhecimento:*  Estruturas de dados, listas, dicionários, indexação e manipulação de informações.
 3. _…_ *(opcional)*
 
 **3b. Desvio em relação ao Campo 02 (ao menos 1 — causa técnica):**
-- **Desvio:** Não houve, pois no campo 2 eu relatei que não havia encontrado nenhuma falha significativa, o grupo 2 é um CRUD simplesmente mais completo que o grupo 1. A única limitação foi poder apenas criar um único contato, e, se precisasse criar outro, precisaria apagar o anterior.
-- **Causa técnica:** Ausência de uma estrutura de dados dinâmica que permitisse criar contatos sem perder o contato anterior.
+- **Desvio:**  Não houve, pois no campo 2 eu relatei que não havia encontrado nenhuma falha significativa, o grupo 2 é um CRUD simplesmente mais completo que o grupo 1. A única limitação foi poder apenas criar um único contato, e, se precisasse criar outro, precisaria apagar o anterior.
+- **Causa técnica:**  Ausência de uma estrutura de dados dinâmica que permitisse criar contatos sem perder o contato anterior.
 
 **3c. Decisão de ajuste (ao menos 1) com justificativa e fonte:**
-- **Decisão:**  A solução, que só pôde ser possível no Grupo 2, veio com a ideia de implementar listas e dicionários para guardar os contatos em uma estrutura.
-- **Fonte:**  Aulas do professor Rondineli - Listas, matrizes e dicionários.
+- **Decisão:**   A solução, que só pôde ser possível no Grupo 2, veio com a ideia de implementar listas e dicionários para guardar os contatos em uma estrutura.
+- **Fonte:**    Aulas do professor Rondineli - Listas, matrizes e dicionários.
 
 **Objeto de conhecimento mobilizado nesta decisão:** Listas, matrizes e dicionários e suas operações.
 
@@ -412,23 +412,23 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 > **Obrigatório e avaliado. Print sem análise crítica = devolução imediata. Reproduzir a IA sem questionamento = reprovado.**
 
-**4a. Ferramenta:** CHAT-GPT  **Data:** 20/11/2026
+**4a. Ferramenta:**  CHAT-GPT  **Data:**  20/11/2026
 
 **4b. Pergunta formulada (transcrita integralmente):**
 
-> "tem algum erro de python que acontece se vc digitar algo inesperado no input()? como um tipo de dado diferente do esperado"
+>  "tem algum erro de python que acontece se vc digitar algo inesperado no input()? como um tipo de dado diferente do esperado"
 
 **4c. Resposta da IA (resumida em parágrafo):**
 
-> A resposta explicou que a função input() retorna uma string (str) e que, quando essa entrada é convertida para outro tipo de dado, podem ocorrer erros caso o valor fornecido seja incompatível. Foi apresentado o ValueError, que pode acontecer ao tentar converter um texto não numérico utilizando int(), e o TypeError, que ocorre em operações incompatíveis entre tipos. Também foi explicado que o uso de try e except permite tratar determinadas exceções sem encerrar abruptamente o programa.
+>  A resposta explicou que a função input() retorna uma string (str) e que, quando essa entrada é convertida para outro tipo de dado, podem ocorrer erros caso o valor fornecido seja incompatível. Foi apresentado o ValueError, que pode acontecer ao tentar converter um texto não numérico utilizando int(), e o TypeError, que ocorre em operações incompatíveis entre tipos. Também foi explicado que o uso de try e except permite tratar determinadas exceções sem encerrar abruptamente o programa.
 
 **4d. O que aceitei — com referência ao objeto de conhecimento do componente:**
 
-> Aceitei a explicação de que os dados recebidos por input() são strings e que conversões como int() podem provocar ValueError quando o conteúdo não representa um número inteiro válido. Esse conhecimento é relevante para a Agenda de Contatos porque permite compreender a necessidade de validar entradas e evitar que dados inesperados comprometam o processamento. Objeto de conhecimento: Tipos de dados, conversão de tipos, validação de entradas e tratamento de exceções.
+>  Aceitei a explicação de que os dados recebidos por input() são strings e que conversões como int() podem provocar ValueError quando o conteúdo não representa um número inteiro válido. Esse conhecimento é relevante para a Agenda de Contatos porque permite compreender a necessidade de validar entradas e evitar que dados inesperados comprometam o processamento. Objeto de conhecimento: Tipos de dados, conversão de tipos, validação de entradas e tratamento de exceções.
 
 **4e. O que questionei ou descartei — com argumento técnico ou fonte:**
 
-> Não considerei que o uso de try/except fosse suficiente para validar todas as entradas da aplicação. O tratamento de exceções evita que determinados erros interrompam o programa inesperadamente, mas não garante que o valor recebido seja válido para a regra de negócio. Por exemplo, converter um valor para inteiro não garante que ele seja uma idade válida ou que esteja dentro de um intervalo permitido. Devido a isso, tratei todos os erros com if e else.
+>  Não considerei que o uso de try/except fosse suficiente para validar todas as entradas da aplicação. O tratamento de exceções evita que determinados erros interrompam o programa inesperadamente, mas não garante que o valor recebido seja válido para a regra de negócio. Por exemplo, converter um valor para inteiro não garante que ele seja uma idade válida ou que esteja dentro de um intervalo permitido. Devido a isso, tratei todos os erros com if e else.
 
 ## 🟠 CICLO 05 — 09/09 — Condicionais aninhadas e operadores lógicos
 
@@ -443,13 +443,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 05 — 09/09
-1. **Desafio do ciclo (em 1 frase):** Entender como combinar operadores lógicos e estruturas condicionais aninhadas para avaliar múltiplas condições dentro de um algoritmo.
-2. **O que implementei (commits / arquivos / links):**  Implemente um sistema de análise de escolhas do menu de escolhas usando and e or, usei também condições aninhadas para analisar essas escolhas; link do código: https://github.com/LuisFEPL/CRUD/blob/main/Projeto/CRUD/CRUD_2
-3. **Objeto(s) de conhecimento mobilizado(s):**  Operadores lógicos and, or e not, expressões booleanas, condicionais aninhadas, precedência lógica e fluxo de execução. Esses conceitos permitem avaliar múltiplas condições simultaneamente e controlar a execução de diferentes blocos de código.
-4. **Desvio ou erro encontrado + causa técnica:** Não tive nenhum problema nesse ciclo.
-5. **Decisão de ajuste + fonte:** Não tive nenhum problema nesse ciclo
-6. **Feedback recebido e o que mudei:**  O feedback mostrou a necessidade de analisar melhor a combinação de condições lógicas, principalmente a diferença entre os operadores and e or, para evitar que uma condição seja considerada verdadeira quando nem todos os requisitos necessários foram atendidos. Desde então passei a observar com mais atenção a lógica das expressões condicionais e o resultado esperado de cada combinação de condições.
-7. **Próximo passo:** Aplicar operadores lógicos em validações mais complexas e desenvolver maior clareza na construção de expressões condicionais.
+1. **Desafio do ciclo (em 1 frase):**  Entender como combinar operadores lógicos e estruturas condicionais aninhadas para avaliar múltiplas condições dentro de um algoritmo.
+2. **O que implementei (commits / arquivos / links):**   Implemente um sistema de análise de escolhas do menu de escolhas usando and e or, usei também condições aninhadas para analisar essas escolhas; link do código: https://github.com/LuisFEPL/CRUD/blob/main/Projeto/CRUD/CRUD_2
+3. **Objeto(s) de conhecimento mobilizado(s):**   Operadores lógicos and, or e not, expressões booleanas, condicionais aninhadas, precedência lógica e fluxo de execução. Esses conceitos permitem avaliar múltiplas condições simultaneamente e controlar a execução de diferentes blocos de código.
+4. **Desvio ou erro encontrado + causa técnica:**  Não tive nenhum problema nesse ciclo.
+5. **Decisão de ajuste + fonte:**  Não tive nenhum problema nesse ciclo
+6. **Feedback recebido e o que mudei:**   O feedback mostrou a necessidade de analisar melhor a combinação de condições lógicas, principalmente a diferença entre os operadores and e or, para evitar que uma condição seja considerada verdadeira quando nem todos os requisitos necessários foram atendidos. Desde então passei a observar com mais atenção a lógica das expressões condicionais e o resultado esperado de cada combinação de condições.
+7. **Próximo passo:**  Aplicar operadores lógicos em validações mais complexas e desenvolver maior clareza na construção de expressões condicionais.
 
 ## 🟠 CICLO 06 — 30/09 — Devolutiva da P1 + repetição: `for`, `while`, `break`, `continue`
 
@@ -463,13 +463,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 06 — 30/09
-1. **Desafio do ciclo (em 1 frase):** Aprender como utilizar estruturas de repetição para executar instruções múltiplas vezes, controlando as condições de continuidade e encerramento de um laço.
-2. **O que implementei (commits / arquivos / links):**  loop while True para manter a execução do programa até o usuário parar, também houve uso de loop for para percorrer a estrutura de dados; link do código: https://github.com/LuisFEPL/CRUD/blob/main/Projeto/CRUD/CRUD_2
-3. **Objeto(s) de conhecimento mobilizado(s):** Estruturas de repetição for e while, iteração, condição de parada, incremento, controle de fluxo, break e continue. O for permite percorrer sequências e coleções, enquanto o while executa um bloco enquanto sua condição for verdadeira.
-4. **Desvio ou erro encontrado + causa técnica:** Não houve erros ou desvios nesse ciclo.
-5. **Decisão de ajuste + fonte:** Não houve erros ou desvios nesse ciclo.
-6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:**  Não Houve devolutiva da P1
-7. **Próximo passo:** Aprofundar o uso de laços para percorrer listar, realizar buscas e controlar a repetição de operações no CRUD, evitando loops infinitos e execuções desnecessárias.
+1. **Desafio do ciclo (em 1 frase):**  Aprender como utilizar estruturas de repetição para executar instruções múltiplas vezes, controlando as condições de continuidade e encerramento de um laço.
+2. **O que implementei (commits / arquivos / links):**   Loop while True para manter a execução do programa até o usuário parar, também houve uso de loop for para percorrer a estrutura de dados; link do código: https://github.com/LuisFEPL/CRUD/blob/main/Projeto/CRUD/CRUD_2
+3. **Objeto(s) de conhecimento mobilizado(s):**   Estruturas de repetição for e while, iteração, condição de parada, incremento, controle de fluxo, break e continue. O for permite percorrer sequências e coleções, enquanto o while executa um bloco enquanto sua condição for verdadeira.
+4. **Desvio ou erro encontrado + causa técnica:**  Não houve erros ou desvios nesse ciclo.
+5. **Decisão de ajuste + fonte:**  Não houve erros ou desvios nesse ciclo.
+6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:**   Não Houve devolutiva da P1
+7. **Próximo passo:**  Aprofundar o uso de laços para percorrer listar, realizar buscas e controlar a repetição de operações no CRUD, evitando loops infinitos e execuções desnecessárias.
 
 ## 🟠 CICLO 07 — 07/10 — Listas: armazenamento e iteração
 
@@ -483,13 +483,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 07 — 07/10
-1. **Desafio do ciclo (em 1 frase):** Entender que listas permitem armazenar múltiplos elementos em uma única estrutura e como realizar operações de manipulação e iteração sobre esses dados.
-2. **O que implementei (commits / arquivos / links):**  Implementei uma lista de dicionários para alocar os contatos de forma dinâmica, que no caso é provavelmente a parte mais importante do CRUD etapa 2, todas as operações giram em torno desse mini banco de dados que implementei, link do código: https://github.com/LuisFEPL/CRUD/blob/main/Projeto/CRUD/CRUD_2
-3. **Objeto(s) de conhecimento mobilizado(s):** Listas, índices, elementos, mutabilidade, métodos append(), remove(), pop(), len() e iteração por meio de for. Esses recursos possibilitam organizar conjuntos de contatos e percorrer seus registros para realizar consultas e operações.
-4. **Desvio ou erro encontrado + causa técnica:** "List Index out of range" usei um loop for com intervalo do tipo 0 até len(lista + 1), porém o índice lista -1 não existe.
-5. **Decisão de ajuste + fonte:** Troquei o intervalo para for i in range(len(lista)):, dessa forma o contador vai de 0 até lista -1, índice que existe, pois o último não é incluído(porque o 0 conta), não precisei usar nenhuma fonte.
-6. **Feedback recebido e o que mudei:**  O feedback que recebi mostrou a importância de entender a indexação das listas e a diferença entre acessar, adicionar e remover elementos. Após o feedback passei a tomar mais cuidado com a posição dos elementos e os limites dos índices, evitando acessos incompatíveis com o tamanho da lista e entendendo melhor como as alterações afetam no CRUD.
-7. **Próximo passo:**  Melhorar a manipulação de coleções e estudar formas de organizar cada contato em estruturas de dados que facilitem o acesso e a atualização de informações.
+1. **Desafio do ciclo (em 1 frase):**  Entender que listas permitem armazenar múltiplos elementos em uma única estrutura e como realizar operações de manipulação e iteração sobre esses dados.
+2. **O que implementei (commits / arquivos / links):**   Implementei uma lista de dicionários para alocar os contatos de forma dinâmica, que no caso é provavelmente a parte mais importante do CRUD etapa 2, todas as operações giram em torno desse mini banco de dados que implementei, link do código: https://github.com/LuisFEPL/CRUD/blob/main/Projeto/CRUD/CRUD_2
+3. **Objeto(s) de conhecimento mobilizado(s):**  Listas, índices, elementos, mutabilidade, métodos append(), remove(), pop(), len() e iteração por meio de for. Esses recursos possibilitam organizar conjuntos de contatos e percorrer seus registros para realizar consultas e operações.
+4. **Desvio ou erro encontrado + causa técnica:**  "List Index out of range" usei um loop for com intervalo do tipo 0 até len(lista + 1), porém o índice lista -1 não existe.
+5. **Decisão de ajuste + fonte:**  Troquei o intervalo para for i in range(len(lista)):, dessa forma o contador vai de 0 até lista -1, índice que existe, pois o último não é incluído(porque o 0 conta), não precisei usar nenhuma fonte.
+6. **Feedback recebido e o que mudei:**   O feedback que recebi mostrou a importância de entender a indexação das listas e a diferença entre acessar, adicionar e remover elementos. Após o feedback passei a tomar mais cuidado com a posição dos elementos e os limites dos índices, evitando acessos incompatíveis com o tamanho da lista e entendendo melhor como as alterações afetam no CRUD.
+7. **Próximo passo:**   Melhorar a manipulação de coleções e estudar formas de organizar cada contato em estruturas de dados que facilitem o acesso e a atualização de informações.
 
 ## 🟠 CICLO 08 — 14/10 — Busca/consulta e introdução a dicionários e matrizes
 
@@ -504,13 +504,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 08 — 14/10
-1. **Desafio do ciclo (em 1 frase):** Entender como realizar buscas em estruturas de dados e utilizar dicionários para organizar informações por meio de pares de chave e valor.
-2. **O que implementei (commits / arquivos / links):** Implementei um dicionário que possui uma chave "contatos", que é uma lista de dicionários
-3. **Objeto(s) de conhecimento mobilizado(s):**  Busca linear, comparação de valores, estruturas de dados, dicionários, pares chave-valor, chaves, valores, acesso por índice e acesso por chave. Os dicionários permitem associar atributos identificadores a informações específicas, como nome, número, endereço e email de um contato.
-4. **Desvio ou erro encontrado + causa técnica:**  Não houve erros ou desvios nessa etapa.
-5. **Decisão de ajuste + fonte:**  Não houve erros ou desvios nessa etapa.
-6. **Feedback recebido e o que mudei:**  Recebi um feedback positivo quanto a organização da estrutura de dados e a forma de busca usada para encontrar um contato e mostrá-los, devido a isso não julguei ser necessário qualquer mudança.
-7. **Próximo passo:** Terminar de revisar  a estrutura de armazenamento dos contatos.
+1. **Desafio do ciclo (em 1 frase):**   Entender como realizar buscas em estruturas de dados e utilizar dicionários para organizar informações por meio de pares de chave e valor.
+2. **O que implementei (commits / arquivos / links):**  Implementei um dicionário que possui uma chave "contatos", que é uma lista de dicionários
+3. **Objeto(s) de conhecimento mobilizado(s):**   Busca linear, comparação de valores, estruturas de dados, dicionários, pares chave-valor, chaves, valores, acesso por índice e acesso por chave. Os dicionários permitem associar atributos identificadores a informações específicas, como nome, número, endereço e email de um contato.
+4. **Desvio ou erro encontrado + causa técnica:**   Não houve erros ou desvios nessa etapa.
+5. **Decisão de ajuste + fonte:**   Não houve erros ou desvios nessa etapa.
+6. **Feedback recebido e o que mudei:**   Recebi um feedback positivo quanto a organização da estrutura de dados e a forma de busca usada para encontrar um contato e mostrá-los, devido a isso não julguei ser necessário qualquer mudança.
+7. **Próximo passo:**  Terminar de revisar  a estrutura de armazenamento dos contatos.
 ---
 
 # 🔵 GRUPO 3 — prazo quinta 26/11 às 23h59
